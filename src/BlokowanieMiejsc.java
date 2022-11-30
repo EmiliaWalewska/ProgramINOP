@@ -13,4 +13,6 @@ public class BlokowanieMiejsc {
         return salaKinowa;
 
     }
+
+
 }

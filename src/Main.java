@@ -8,7 +8,12 @@ public class Main {
             SalaKinowa salaKinowa1 = new SalaKinowa();
             System.out.println(salaKinowa1.getSala1());
 
+        System.out.println("Podaj nr miejsca");
+        int miejsce = in.nextInt();
+
+       BlokowanieMiejsc.blokowanieMiejsc(salaKinowa1, miejsce);
 
 
-        }
+
+    }
     }
