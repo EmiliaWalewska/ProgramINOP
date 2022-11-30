@@ -6,12 +6,12 @@ public class Main {
             Scanner in = new Scanner(System.in);
 
             SalaKinowa salaKinowa1 = new SalaKinowa();
-            System.out.println(salaKinowa1.getSala1());
-
+            salaKinowa1.getSala1();
+        salaKinowa1.piszTab();
         System.out.println("Podaj nr miejsca");
         int miejsce = in.nextInt();
-
-       BlokowanieMiejsc.blokowanieMiejsc(salaKinowa1, miejsce);
+        int [][] salaKinowa1BlokMiej = BlokowanieMiejsc.blokowanieMiejsc(salaKinowa1.getSala1(), miejsce);
+        salaKinowa1.piszTab();
 
 
 

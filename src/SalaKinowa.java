@@ -5,12 +5,11 @@ public class SalaKinowa {
     public int[][] getSala1() {
         sala1 = new int [10][10];
         generujTAB();
-        piszTab(sala1);
         return sala1;
     }
 
 
-    public static void piszTab(int [][] sala1) {
+    public void piszTab() {
 
         for (int i = 0; i < sala1.length; i++) {
             for (int j = 0; j < sala1[i].length; j++) {
