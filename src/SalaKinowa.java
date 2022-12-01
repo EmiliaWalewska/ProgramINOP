@@ -2,7 +2,7 @@ public class SalaKinowa {
     static int[][] sala1;
 
 
-    public int[][] getSala1() {
+    public int[][] getSala() {
         sala1 = new int [10][10];
         generujTAB();
         return sala1;
